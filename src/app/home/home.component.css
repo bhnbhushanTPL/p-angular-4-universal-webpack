@@ -1,0 +1,224 @@
+.build{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+p{
+  font-size: 16px;
+  font-family: 'gotham_lightregular';
+  font-weight: 600;
+}
+h3{
+  color: #486273;
+  font-family: 'gotham_boldregular';
+}
+
+.graph{
+  background: #F0F4F7;
+  padding: 70px 0;
+}
+.graph-content {
+  padding-right: 50px;
+}
+.graphImg{
+  width: 100%;
+}
+
+.advantages{
+  margin: 70px 0;
+  bottom: 70px;
+}
+.adv-img{
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+}
+.adv-img img{
+  width: 100px;
+  height: 100px;
+}
+.adv-content{
+  display: inline-block;
+  width: 65%;
+  padding-left: 25px;
+}
+
+.popular-text{
+  color: #486273;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 40px;
+}
+
+.popular{
+  background: #F0F4F7;
+  padding: 70px 0;
+}
+
+ul.popular-chats{
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+ul.popular-chats li {
+  display: inline-block;
+  width: 13%;
+}
+.popular-chats img {
+  width: 78px;
+  height: 78px;
+}
+
+
+@media only screen and (max-width: 992px){
+  .graphImg{
+    margin-top: 140px;
+  }
+  .buildImg{
+    margin-top: 30px;
+  }
+  .popular-text{
+    font-size: 14px;
+  }
+  .popular-chats img{
+    width: 58px;
+    height: 58px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .buildImg{
+    position: absolute;
+    opacity: 0.2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 36px;
+  }
+
+  .graphImg{
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .graph-content{
+    padding: 15px;
+  }
+  ul.popular-chats li {
+    width: 18%;
+  }
+  .popular-chats img{
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .popular-chats img {
+    width: 40px;
+    height: 40px;
+  }
+  .graphImg{
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    display: block;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .build{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .graph{
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .advantages{
+    margin: 15px 0;
+  }
+  .popular{
+  padding-top: 25px;
+  padding-bottom: 15px;
+  }
+}
+
+
+
+
+/*.sprite {*/
+  /*background-image: url(../../assets/images/spritesheet.png);*/
+  /*background-repeat: no-repeat;*/
+  /*display: block;*/
+/*}*/
+
+/*.sprite-communication {*/
+  /*width: 150px;*/
+  /*height: 150px;*/
+  /*background-position: -5px -5px;*/
+/*}*/
+
+/*.sprite-deploy {*/
+  /*width: 150px;*/
+  /*height: 150px;*/
+  /*background-position: -165px -5px;*/
+/*}*/
+
+/*.sprite-email {*/
+  /*width: 22px;*/
+  /*height: 16px;*/
+  /*background-position: -325px -5px;*/
+/*}*/
+
+/*.sprite-messanger {*/
+  /*width: 98px;*/
+  /*height: 98px;*/
+  /*background-position: -357px -5px;*/
+/*}*/
+
+/*.sprite-personalization {*/
+  /*width: 150px;*/
+  /*height: 150px;*/
+  /*background-position: -465px -5px;*/
+/*}*/
+
+/*.sprite-skype {*/
+  /*width: 98px;*/
+  /*height: 98px;*/
+  /*background-position: -625px -5px;*/
+/*}*/
+
+/*.sprite-slack {*/
+  /*width: 98px;*/
+  /*height: 98px;*/
+  /*background-position: -733px -5px;*/
+/*}*/
+
+/*.sprite-telegram {*/
+  /*width: 98px;*/
+  /*height: 98px;*/
+  /*background-position: -841px -5px;*/
+/*}*/
+
+/*.sprite-watch {*/
+  /*width: 150px;*/
+  /*height: 150px;*/
+  /*background-position: -949px -5px;*/
+/*}*/
+
+/*.sprite-wechat {*/
+  /*width: 98px;*/
+  /*height: 98px;*/
+  /*background-position: -1109px -5px;*/
+/*}*/
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<app-slider></app-slider>
+
+<img src="src/assets/images/graph.png">
+
+<section class="build" *ngIf="data.buildSection">
+  <div class="container">
+    <div class="row" *ngFor="let item of data.buildSection.buildSectionData">
+      <div class="col-sm-5 col-md-4 col-xs-12 text-center">
+        <figure>
+          <img src="{{item.buildImageSrc}}" alt="{{item.buildImageAlt}}" class="buildImg">
+        </figure>
+      </div>
+      <div class="col-sm-7 col-md-8 col-xs-12">
+        <div class="build-content">
+          <h3>{{item.buildHeading}}</h3>
+          <p>{{item.buildText1}}</p>
+          <p>{{item.buildText2}}</p>
+          <p>{{item.buildText3}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--graph-->
+
+<section class="graph" *ngIf="data.graphSection">
+  <div class="container">
+    <div class="row" *ngFor="let item of data.graphSection.graphSectionData">
+      <div class="col-sm-5 col-xs-12 col-sm-push-7">
+        <img class="graphImg" src="{{item.graphImageSrc}}" alt="{{item.graphImageAlt}}">
+      </div>
+      <div class="col-sm-7 col-xs-12 col-sm-pull-5">
+        <div class="graph-content">
+          <h3>{{item.graphHeading}}</h3>
+          <p>{{item.graphText}}</p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section><!--graph-->
+
+<section class="advantages" *ngIf="data.advantages">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6" *ngFor="let item of data.advantages.type">
+        <figure class="adv-img">
+          <img src="{{item.img}}" alt="{{item.alt}}">
+        </figure>
+        <div class="adv-content">
+          <h3>{{item.title}}</h3>
+          <p>{{item.description}}</p>
+        </div>
+      </div><!--col-->
+    </div><!--row-->
+  </div><!--container-->
+</section><!--advantages-->
+
+<section class="popular" *ngIf="data.popularChats">
+  <div class="container">
+    <ul class="popular-chats">
+      <li *ngFor="let item of data.popularChats.icons"><img src="{{item.src}}" alt="{{item.alt}}"></li>
+    </ul>
+    <h3 class="popular-text text-center" *ngFor="let item of data.popularChats.textData">
+      {{item.text}}
+    </h3>
+  </div>
+</section><!--advantages-->

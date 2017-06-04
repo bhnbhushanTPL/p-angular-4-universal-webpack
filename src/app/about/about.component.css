@@ -1,0 +1,14 @@
+h1{
+  font-family: 'gotham_boldregular';
+  color: #486273!important;
+  text-align: center;
+  margin: 70px 0;
+}
+
+app-about+app-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
